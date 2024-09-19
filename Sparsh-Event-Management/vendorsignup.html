@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Signup</title>
+</head>
+
+<body>
+    <h1>Vendor Signup</h1>
+    <form action="vendoradded.php" method="post">
+        <label for="userid">User ID:</label>
+        <input type="text" id="userid" name="userid" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="membership">Membership:</label>
+        <select id="membership" name="membership">
+            <option value="6 months" selected>6 Months</option>
+            <option value="12 months">12 Months</option>
+            <option value="24 months">24 Months</option>
+        </select><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>

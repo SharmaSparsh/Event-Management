@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Admin Sign Up Page</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="style.css">
+  <form action="adminsignup.php" method="post">
+    <h1>Event Management System</h1>
+
+    <div class="form-input">
+      <label for="uname">Name:</label>
+      <input type="text" name="uname" id="username" required>
+
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required>
+      <label for="Category">Category</label>
+      <select name="cat" id="cat">
+        <option value="Catering">Catering</option>
+        <option value="Florist">Florist</option>
+        <option value="Decoration">Decoration</option>
+        <option value="Lightning">Lightning</option>
+      </select>
+
+
+      <div class="btn-container"></div>
+      <button type="submit">SignUp</button>
+    </div>
+
+
+    </div>
+  </form>
+  </div>
+</body>
+
+</html>

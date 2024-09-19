@@ -1,0 +1,459 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.login-options,
+.admin-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5B99C2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #5B99C2;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.signup-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-options a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.signup-options a:hover {
+    background-color: #45a049;
+}
+
+.btn-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Global button style */
+button {
+    background-color: #B5B4D9;
+    /* Blue color */
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: absolute;
+ 
+    height: 300px;
+    width: 500px;
+    background-color: rgb(210, 209, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+#inmain1{
+    display: flex;
+    justify-content: space-between;
+}
+#inmain1btn{
+    background-color:rgb(52, 96, 168);
+    padding: 7px;
+}
+h1{
+    padding: 7px;
+    margin: 20px;
+    background-color: rgb(170, 192, 248);
+    font-size: 20px; 
+    
+}
+
+#btn{
+    background-color: rgb(52, 96, 168);
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+}
+#itype{
+    background-color: rgb(164, 192, 252);
+    border: none;
+    padding: 7px;
+}
+#btn2{
+    background-color: rgb(123, 122, 121);
+    border: none;
+    padding: 7px;
+}
+#adsignupbtn{
+    background-color:  rgb(52, 96, 168);
+    padding: 7px;
+    margin: 5px;
+    width: 15%;
+    border-radius: 5px;
+    
+}
+#adsignupbtninp{
+    background-color:  rgb(52, 96, 168);
+    padding: 7px;
+    margin: 5px;
+    width: 60%;
+}
+#vendorbtn{
+   
+ display: flex;
+ justify-content: space-around;
+ padding-top: 5cqmax;
+    
+   
+}
+#vendorpagebtn{
+    background-color:  rgb(52, 96, 168);
+    padding: 7px;
+    margin: 5px;
+    width: 15%;
+    border-radius: 5px;
+}
+#vendorpagebtn:hover{
+    background-color: rgb(47, 152, 245);
+    cursor: pointer;
+}
+
+#mainadditm{
+    position: absolute;
+ 
+    height: 300px;
+    width: 800px;
+    background-color: rgb(210, 209, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+
+}
+#additm{
+    height: 30px;
+    width: 700px;
+    background-color: rgb(47, 152, 245);   
+    
+}
+#vendorname{
+    border:none;
+    background-color: rgb(47, 152, 245);
+}
+#vendorbtn2{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 0;
+    
+}
+
+#productdtlbtn{
+    height: 200px;
+    width: 300px;
+    background-color:rgb(47, 152, 245);  
+    margin-top: 20px;
+    position: absolute;
+}
+#productdtlbtn1{
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+#productdtl{
+    
+   display: flex;
+   margin-left: 40%;
+   margin-top: 30px;
+   padding: 10px;
+   position: absolute;
+
+}
+#addbtn{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#productdtl1
+{ 
+   
+    margin: 7px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#productspfc{
+    
+   margin-left: 30%;
+   margin-top: 110px;
+  
+   position: absolute;
+}
+#productspfc1{
+    padding: 30px;
+    margin-left:0;
+    
+}
+#productspfc2{
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+#productspfc3{
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+#productspfc4{
+    padding: 10px;
+    margin-left: 40px;
+    
+    
+}
+#productspfc5{
+    padding: 10px;
+    margin-left:350px;
+    margin-top: 1px;
+    
+}
+#usrprtclbtn{
+    background-color:  rgb(52, 96, 168);
+    padding: 7px;
+    margin: 5px;
+    width: 20%;
+
+    border-radius: 5px;
+}
+#usrprtclbtn:hover{
+    background-color: rgb(47, 152, 245);
+    cursor: pointer;
+}
+#prtclbtn2{
+    margin-top: 40px;
+}
+#mainvp{
+    position: absolute;
+ 
+    height: 450px;
+    width: 700px;
+    background-color: rgb(210, 209, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+#venbox{
+    background-color:  rgb(52, 96, 168);
+    padding: 0;
+    margin: 5px;
+    width:130px;
+    border-radius: 20px;
+    height: 150px;
+}
+#boxbtn{
+    border: 10px, solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+    padding: 7px;
+}
+#venpg{
+    background-color: rgb(52, 96, 168);
+    height: 50px;
+    width: 400px;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+#venpgbox{
+    background-color: rgb(52, 96, 168);
+    border: none;
+    margin-top: 11px;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+}
+#venname{
+    background-color: rgb(52, 96, 168);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 5px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#heading{
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    margin-left: 33%;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+#venbox1{
+    background-color:  rgb(52, 96, 168);
+    padding: 0;
+    margin: 5px;
+    width:100px;
+    border-radius: 20px;
+    height: 130px;
+    color: aliceblue;
+}
+#venbox2{
+    color: aliceblue;
+    background-color:  rgb(52, 96, 168);
+    padding: 0;
+    margin: 5px;
+    width:100px;
+    border-radius: 10px;
+    height: 35px;
+}
+#cart{
+    color: white;
+    background-color: rgb(30, 72, 149);
+    height: 40px;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#cartbtn{
+    background-color: cornflowerblue;
+    border: none;
+    width: 50px;
+    margin-left: 350px;
+    color: aliceblue;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#cartbtn1{
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    height: 25px;
+    width: 100px;
+}
+
+/*<--- checkout section---> */
+/* #checkout{
+    color: aliceblue;
+    background-color: rgb(33, 74, 151);
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 32%;
+    padding-top: 8px;
+}
+#checkout-i{
+    background-color: rgb(41, 82, 156);
+    width: 70px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: none;
+}
+#checkout1{
+    color: aliceblue;
+    background-color: rgb(33, 74, 151);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 32%;
+    padding-top: 8px;
+    margin-top: 15px;
+    margin-left: 43%;
+}
+#checkout2{
+    color: aliceblue;
+    background-color: rgb(33, 74, 151);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+#checkout3{
+    display: flex;
+    justify-content: space-around;
+}
+#checkout4{
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 39%;
+}
+#checkou{
+    background-color: cornflowerblue;
+    border: none;
+    padding-top: 8px;
+} */
